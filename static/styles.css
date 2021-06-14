@@ -1,0 +1,25 @@
+.portrait {
+  width: 100%;
+  height: auto;
+  margin-top: -1em;
+}
+
+.div-portrait {
+  float: left;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+}
+
+.links {
+  justify-content: flex-end;
+}
+
+header {
+  margin-top: 2em;
+}
