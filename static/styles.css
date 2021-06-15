@@ -1,17 +1,3 @@
-.portrait {
-  width: 100%;
-  height: auto;
-  margin-top: -1em;
-}
-
-.div-portrait {
-  float: left;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
 .name {
   text-align: center;
 }
@@ -31,3 +17,29 @@ header {
 	min-height: 43em;
 	box-shadow: 10px 10px 20px rgba(216, 216, 216, 0.973);
 }
+
+a {
+	color: black !important;
+	font-size: 1.5em;
+}
+
+.portrait {
+	width: 10em;
+	height: 10em;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 10px 10px 20px rgba(179, 179, 179, 0.973);
+}
+
+.card-title {
+  margin-top: 2em;
+}
+
+.card-text {
+  margin-top: 1em;
+}
+
+.card-action {
+  margin-top: 1em;
+}
+
