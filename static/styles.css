@@ -6,8 +6,13 @@
   justify-content: flex-end;
 }
 
-header {
+.profile {
   margin-top: 2em;
+	text-align: center;
+}
+
+.bio {
+	margin-top: 1em;
 }
 
 .card {
